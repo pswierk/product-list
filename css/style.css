@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background: #98fb98;
+}
+
+
+#header {
+    height: 100vh;
+    width: 100%;
+}
+
+#header .inner-header {
+    height: 100%;
+    top: 25%;
+    position: relative;
+    text-align: center;
+
+}
+
+#header .inner-header .product {
+    height: 40%;
+    width: 20%;
+    display: inline-block;
+
+}
+
+#img1,
+#img2,
+#img3,
+#img4 {
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+}
+
+#img1 {
+    background-image: url(..//img/product-1.jpg);
+
+}
+
+#img2 {
+    background-image: url(..//img/product-2.jpg);
+
+}
+
+#img3 {
+    background-image: url(..//img/product-3.jpg);
+
+}
+
+#img4 {
+    background-image: url(..//img/product-4.jpg);
+}
+
+.inner-header .product-mask {
+    height: 100%;
+    background-color: rgba(255, 165, 0, 0.7);
+    opacity: 0;
+    transition: all 0.4s;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.inner-header .product-mask:hover {
+    opacity: 1;
+}
+
+.inner-header .product-mask a i {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 36%;
+
+}
+

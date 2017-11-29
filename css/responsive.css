@@ -1,0 +1,27 @@
+@media all and (min-width:993px) {
+    #header .inner-header .product {
+        height: 40%;
+        width: 20%;
+        display: inline-block;
+
+    }
+}
+
+@media all and (max-width:992px) {
+    #header .inner-header .product {
+        height: 30%;
+        width: 30%;
+        display: inline-block;
+
+    }
+}
+
+
+@media all and (max-width:480px) {
+    #header .inner-header .product {
+        height: 20%;
+        width: 46%;
+        display: inline-block;
+
+    }
+}
